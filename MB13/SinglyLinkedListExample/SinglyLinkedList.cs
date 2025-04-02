@@ -1,7 +1,10 @@
 ﻿namespace MB13.SinglyLinkedListExample
 {
-    public class SinglyLinkedList
-    {
+  /// <summary>
+  /// SinglyLinkedList
+  /// </summary>
+  public class SinglyLinkedList
+  {
 
-    }
+  }
 }
