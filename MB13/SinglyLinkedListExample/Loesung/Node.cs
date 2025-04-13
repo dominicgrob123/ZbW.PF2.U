@@ -8,7 +8,13 @@ namespace MB13.Loesung.SinglyLinkedListExample
 {
     public class Node
     {
-        public object Data { get; set; }
-        public Node Link { get; set; }
+    public object Data { get; set; }
+    public Node Link { get; set; }
+
+    public override string ToString()
+    {
+      return Data.ToString();
     }
+
+  }
 }
