@@ -1,4 +1,4 @@
-﻿using MB13.Loesung.SinglyLinkedListExample;
+﻿using MB13.SinglyLinkedListExample;
 using System.Collections.Generic;
 using System.Diagnostics;
 
