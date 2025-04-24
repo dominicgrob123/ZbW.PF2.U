@@ -19,7 +19,7 @@ namespace MB14.QueueExample
 
         public void Enqueue(object item)
         {
-            grow();
+            Grow();
 
             items[Count] = item;
 
@@ -56,7 +56,7 @@ namespace MB14.QueueExample
             Count = 0;
         }
 
-        private void grow()
+        private void Grow()
         {
             // Überprüfen, ob noch Platz
             if (items.Length >= Count + 1)
